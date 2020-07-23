@@ -64,13 +64,15 @@ public class IFelseStatements {
 		//definite cndition
 		
 		//1-sun, 2- monday..args. 7- Saturday
-		String  name= "jgjhgjh";
+		String  name= "Apple";
 		
-		char name1= 'a';
+	//	char name1= 'a';
 		
+		//name="Apple"
 		switch(name) {
 		
 		case "Apple":
+			
 			System.out.println("Sunday");
 			break;
 			
