@@ -8,19 +8,52 @@ public class Function101 {
 			System.out.println("Hi");
 		}
 
-	//
+		//
 
 	}
 
 //Arguments
 	// return
-	public static String addNumber(int a, int b) {
+//	public static String addNumber(int a, int b) {
+//
+//		int sum = a + b;
+//		System.out.println(sum);
+//
+//		return "Hello";
+//
+//	}
 
+	// 1. Function with arguments and no return type;
+
+	public static void sayHi(int times) {
+		for (int i = 0; i < times; i++) {
+			System.out.println(i + " Hi");
+		}
+	}
+
+	// 2. Function with arguments and return type;
+
+	public static int addNumber(int a, int b) {
 		int sum = a + b;
-		System.out.println(sum);
 
-		return "Hello";
-		
+		return sum;
+
+	}
+
+	// 3. function without arguments and no return type;
+
+	public static void letsRest() {
+		System.out.println("zzzzzz");
+	}
+
+	// 4. Function without arguments and return;
+
+	public static String whatsYourName() {
+		return "Kp Oli";
+	}
+
+	public static double valueOfPI() {
+		return 3.1416;
 	}
 
 	public static void main(String[] args) {
@@ -28,20 +61,27 @@ public class Function101 {
 
 		// function ra method
 
-		String dataFromMethod = addNumber(100, 200);
+//		String dataFromMethod = addNumber(100, 200);
+//
+//		System.out.println(dataFromMethod);
+//		sayHi(25);
+//		int dataFromMethod= addNumber(5, 5);  //10
+//		System.out.println(dataFromMethod);
 
-		System.out.println(dataFromMethod);
+		// System.out.println(addNumber(10, 20)*100);
+		//letsRest();
 
+		//System.out.println(whatsYourName());
+		
+		String dataFromMethod= whatsYourName();
+		System.out.println(dataFromMethod + " PM");
+		
+		
+		
 	}
 
-	//function bhaneko 4 ota??
-	//return type 
-	//arguments
-	
-	//	1. Function with arguments and no return type;
-	//	2. Function with arguments and return type;	
-	//	3. function without arguments and no return type;
-	//	4. Function without arguments and return;
-	
-	
+	// function bhaneko 4 ota??
+	// return type
+	// arguments
+
 }

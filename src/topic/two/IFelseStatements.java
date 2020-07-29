@@ -83,8 +83,6 @@ public class IFelseStatements {
 		default:
 			System.out.println("Not Apple");
 			
-	
-			
 		}
 		//break bahyexi loop bahira aauxa
 		
