@@ -57,10 +57,12 @@ public class MainClass {
 //		System.out.println("*****");
 
 		Student urgyen= new Student();
+		
 		urgyen.id= 1;
 		urgyen.name ="Urgyen";
 		urgyen.grade = "A +" ;
 		urgyen.year=1;
+		
 		System.out.println("-----");
 		//System.out.println(urgyen.id);
 		urgyen.printDetails();
